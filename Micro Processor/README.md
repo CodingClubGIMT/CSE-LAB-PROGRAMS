@@ -19,6 +19,7 @@
 #### 8. Addition of two 16 bit numbers stored in memory
 `1st 16 bit number - LSB in 9200H,MSB in 9201H ; 2nd 16 bit number - LSB in 9300H,MSB in 9301H ; add the two number and save the result LSB in 9302H and MSB in 9303H`
 #### 9. Subtraction of two 16 bit numbers stored in memory 
+`1st 16 bit number - LSB in 9200H,MSB in 9201H ; 2nd 16 bit number - LSB in 9300H,MSB in 9301H ; substract the 1st number from 2nd one and save the result LSB in 9302H and MSB in 9303H`
 #### 10. Multiplication of two 8 bit unsigned numbers stored in memory 
 `Write a program to multiply a number stored in memory location 9100H by another number stored in memory location 9101H and store the result in memory location 9102H`
 #### 11. Division of one 8 bit unsigned number by another 8 bit unsigned number stored in memory

@@ -12,6 +12,7 @@
 #### 4. Block transfer of data in memory segments far apart
 `6 bytes of data are stored in memory starting from 8000H. Write a program to Move the block of data to memory address starting from 9001H`
 #### 5. Block transfer of data in memory segments overlapping each other
+`6 bytes of data are stored in memory starting from 6000H to 6005H. Write a program to Move the block of data to memory address starting from 6003H to 6008H`
 #### 6. Addition of an array of bytes stored in consecutive memory
 #### 7. Addition of unknown number of bytes stored in consecutive memory 
 #### 8. Addition of two 16 bit numbers stored in memory

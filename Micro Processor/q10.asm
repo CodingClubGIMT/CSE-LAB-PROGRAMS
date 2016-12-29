@@ -1,0 +1,10 @@
+LDA 9100H
+MOV B,A
+LDA 9101H
+MOV C,A
+DCR B
+LOOP:	ADD C
+        DCR B
+        JNZ LOOP
+        STA 9102H
+        HLT

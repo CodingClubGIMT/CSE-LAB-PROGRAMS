@@ -1,10 +1,18 @@
 LDA 9100H
-MOV B,A
+MOV D,A
 LDA 9101H
 MOV C,A
 MVI A,00H
+MVI B,00H
+
 LOOP:	ADD C
-        DCR B
+	JNC LOOP2
+	INX B
+
+LOOP2:	DCR D
         JNZ LOOP
-        STA 9102H
+        STA 9103H
+	MOV A,B
+	STA 9102H
         HLT
+        

@@ -14,8 +14,9 @@
 #### 5. Block transfer of data in memory segments overlapping each other
 `6 bytes of data are stored in memory starting from 6000H to 6005H. Write a program to Move the block of data to memory address starting from 6003H to 6008H`
 #### 6. Addition of an array of bytes stored in consecutive memory
-`8 bytes of data are stored in memory location starting from 3001H to 3007H. Write a program to add the data bytes and store in accumulator`
+`6 bytes of data are stored in memory location starting from 3001H to 3005H. Write a program to add the data bytes and store the result LSB in 3009H and MSB in 3008H(use register B to store if any carry is generated)`
 #### 7. Addition of unknown number of bytes stored in consecutive memory 
+`Certain numbers of bytes of data ae stored in memory location starting at 9100H. Number of bytes are unknown. End of the data sting is indicate by 00H. Add all the data bytes, use register B to save any carry generated while adding consecutive memory location. Store the result MSB in 9200H and LSB in 9201H`
 #### 8. Addition of two 16 bit numbers stored in memory
 `1st 16 bit number - LSB in 9200H,MSB in 9201H ; 2nd 16 bit number - LSB in 9300H,MSB in 9301H ; add the two number and save the result LSB in 9302H and MSB in 9303H`
 #### 9. Subtraction of two 16 bit numbers stored in memory 

@@ -7,3 +7,7 @@
 ####3. Write a program to find Subtraction of two numbers.
 ####4. Write a program to find Multiplication of two numbers.
 ####5. Write a program to find Division of two numbers.
+####6. Write a program to find area of Rectangle.
+####7. Write a program to find area of Circle
+####8. Write a program to find area of Triangle.
+####9. Write a program to find simple interest, compound interest and amount.

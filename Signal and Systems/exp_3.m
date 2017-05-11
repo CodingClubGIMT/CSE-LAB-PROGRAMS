@@ -1,0 +1,14 @@
+x=-5:1:12;
+y1=[zeros(1,5),ones(1,13)];
+y2=[zeros(1,15),ones(1,3)];
+y3=y1-y2;
+y4=fliplr(y3);
+p=0.5*(y3+y4);
+q=0.5*(y3-y4);
+subplot(3,1,1);
+stem(x,y3);
+subplot(3,1,2);
+stem(x,p);
+subplot(3,1,3);
+stem(x,q);
+grid off;
